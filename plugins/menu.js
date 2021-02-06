@@ -73,7 +73,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     }
     conn.menu = conn.menu ? conn.menu : {}
     let before = conn.menu.before || `
-╭─「 ${conn.getName(conn.user.jid)} 」
+╭─「 Bot WhatsApp By Aqla Briyan 」
 │ Hai, %name!
 │
 │ *%exp XP*
@@ -85,8 +85,6 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 │ Uptime: *%uptime*
 │ Main Uptime: *%muptime*
 │ Database: %totalreg nomor
-│ Github:
-│ %github
 ╰────
 %readmore`
     let header = conn.menu.header || '╭─「 %category 」'
